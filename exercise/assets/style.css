@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+body {
+    background-color: #cececc;
+    font-family: 'Source Code Pro', monospace;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-family: 'Source Code Pro', monospace;
+    color: darkslateblue;
+    font-size: 3vw;
+}
+
+a {
+    color: rgb(255, 0, 0);
+    font-size: 2rem;
+    display: block;
+    transition: all linear 1s;
+}
+
+.menu {
+    position: fixed;
+    top: 100px;
+    left: 50px;
+    width: max-content;
+}
+
+#freitag {
+    color: darkgreen;
+    background-color: white;
+    top: 10px;
+}
+
+#samstag {
+    color: darkorange;
+    top: 350px;
+}
+
+#sonntag {
+    color: crimson;
+    background-color: white;
+    top: 700px;
+    left: 300px
+}
+
+#montag {
+    color: dodgerblue;
+    top: 1000px;
+}
+
+#dienstag {
+    color: black;
+    background-color: white;
+    top: 1350px;
+    left: 200px;
+}
+
+#mittwoch {
+    color: gold;
+    top: 1700px;
+    left: 100px;
+}
+
+#donnerstag {
+    color: darkblue;
+    background-color: white;
+    top: 1950px;
+    left: 400px;
+}
+
+#freitag:visited {
+    color: white;
+    text-decoration: dashed;
+    background-color: black;
+}
+
+#samstag:visited {
+    color: khaki;
+}
+
+#sonntag:visited {
+    color: #0000FF;
+}
+
+#freitag:visited {
+    color: white;
+    text-decoration: dashed;
+    background-color: black;
+}
+
+#freitag:visited {
+    color: white;
+    text-decoration: dashed;
+    background-color: black;
+}
+
+#freitag:visited {
+    color: white;
+    text-decoration: dashed;
+    background-color: black;
+}
+
+#freitag:visited {
+    color: white;
+    text-decoration: dashed;
+    background-color: black;
+}
+
+#freitag:hover {
+    color: cyan;
+    font-size: 300%;
+}
+
+#samstag:hover {
+    letter-spacing: 20px;
+    color: aqua;
+}
+
+#sonntag:hover {
+    transform: rotate(247deg) perspective(1200px) scale(0.7) translate(-30px, 40px);
+    transform-origin: center center;
+}
+
+#montag:hover {
+    color: #ff7a59;
+    border: #ff7a59 solid 1px;
+    background: #fff;
+}
+
+#dienstag:hover {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#mittwoch:hover {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#donnerstag:hover {
+    text-shadow: 2px 2px #ff0000;
+}
+
+.day {
+    position: absolute;
+    width: 350px;
+    margin-left: 350px;
+    display: block;
+}

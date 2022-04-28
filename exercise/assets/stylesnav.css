@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+body {
+    background-color: #cececc;
+    font-family: 'Source Code Pro', monospace;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.day {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    margin-left: 2000px;
+    display: block;
+    border-radius: 50%;
+    background-color: aqua;
+    transition: all linear 1s;
+}
+
+a {
+    color: rgb(255, 0, 0);
+    font-size: 1rem;
+    display: block;
+    transition: all linear 1s;
+}
+
+.menu {
+    position: fixed;
+    top: 100px;
+    left: 50px;
+    width: max-content;
+    display: block;
+}
