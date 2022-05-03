@@ -1,6 +1,6 @@
 body {
+    padding: 10px;
     margin: 0;
-    padding: 0;
 }
 
 .flex-container {
@@ -15,8 +15,8 @@ body {
 }
 
 .flex-item {
-    width: 15vw;
-    height: 15vw;
+    width: 300px;
+    height: 500px;
 }
 
 .vegetables {
@@ -29,4 +29,8 @@ body {
 
 .sweets {
     background-color: pink;
+}
+
+.text {
+    vertical-align: bottom;
 }
