@@ -1,0 +1,33 @@
+    .specialbutton {
+        background-color: rgb(255, 255, 255);
+        border-radius: 3px;
+        font-family: arial;
+        font-size: 20px;
+        padding: 20px;
+        border-radius: 20px;
+        color: white;
+        position: relative;
+        top: 50%;
+        left: 50%;
+    }
+    
+    .specialbutton:hover {
+        background-color: green;
+    }
+    
+    #element {
+        position: absolute;
+        top: 300px;
+        left: 0px;
+        width: 100px;
+        height: 100px;
+        background-color: goldenrod;
+    }
+    
+    .random {
+        width: 7px;
+        height: 7px;
+        background-color: rgb(56, 154, 225);
+        border-radius: 50%;
+        position: absolute;
+    }
