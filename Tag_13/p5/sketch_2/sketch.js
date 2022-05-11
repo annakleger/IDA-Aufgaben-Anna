@@ -12,8 +12,9 @@ function setup() {
 }
 
 function draw() {
-    background(255, 50);
-    // ellipse(mouseX, mouseY, 50, 50);
+    background(0, 50);
+    ellipse(mouseX, mouseY, 120, 120);
+
     let textGroesse = map(history[count].visitCount, 1, 20, 36, 72);
     textSize(textGroesse);
 
