@@ -1,19 +1,117 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 p {
     font-family: 'Source Code Pro', monospace;
-    font-size: 5vw;
+    font-size: 3vw;
     margin: 0;
     padding: 0;
+    letter-spacing: 500%;
 }
 
-.kalt {
-    color: rgb(37, 163, 163);
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 100;
+body {
+    padding: 0px;
+    margin: 0px;
 }
 
-.speed {
-    color: red;
-    text-align: center;
-    word-spacing: 300%;
+
+/* (A) FIXED WRAPPER */
+
+.hwrap {
+    overflow: hidden;
+    /* HIDE SCROLL BAR */
+    background: #eee;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+    /* margin-bottom: 7px; */
+    border: solid 1.5px black;
+}
+
+
+/* (B) MOVING TICKER WRAPPER */
+
+.hmove {
+    display: flex;
+}
+
+
+/* (C) ITEMS - INTO A LONG HORIZONTAL ROW */
+
+.hitem {
+    flex-shrink: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: left;
+}
+
+@keyframes tickerh {
+    0% {
+        transform: translate3d(100%, 0, 0);
+    }
+    100% {
+        transform: translate3d(-400%, 0, 0);
+    }
+}
+
+.hmove {
+    animation: tickerh linear 12s infinite;
+}
+
+.hmove:hover {
+    animation-play-state: paused;
+}
+
+.rosa {
+    background: #ca514c;
+}
+
+.mint {
+    background: #93aa93;
+}
+
+.orange {
+    background: #c6531d;
+}
+
+.blau {
+    background: #143e6a;
+}
+
+.gelb {
+    background: #dad798;
+}
+
+.gruen {
+    background: #43643d;
+}
+
+.gold {
+    background: #d6aa5c;
+}
+
+.grey {
+    background: #bec4b4;
+}
+
+.rot {
+    background: #cf1e1b;
+}
+
+.ocker {
+    background: #da9e13;
+}
+
+.violet {
+    background: #59678c;
+}
+
+.sand {
+    background: #ac7c4d;
+}
+
+.baige {
+    background: #d9b879;
+}
+
+.pink {
+    background: #cb676a;
 }
