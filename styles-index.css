@@ -30,4 +30,6 @@ body {
 a {
     text-decoration: none;
     color: midnightblue;
+    justify-content: center;
+    font-size: 3vw;
 }

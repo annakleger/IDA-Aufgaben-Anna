@@ -1,86 +1,115 @@
-/* Set a background color */
-
-body {
-    background-color: #212123;
-    font-family: Helvetica, sans-serif;
-}
-
-
-/* The actual timeline (the vertical ruler) */
-
-.timeline {
-    position: relative;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-
-/* The actual timeline (the vertical ruler) */
-
-.timeline::after {
-    content: '';
-    position: absolute;
-    width: 6px;
-    background-color: white;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    margin-left: -3px;
-}
-
-
-/* Container around content */
-
-.container {
-    padding: 10px 40px;
-    position: relative;
-    background-color: inherit;
-    width: 30%;
-}
-
-
-/* The circles on the timeline */
-
-.container::after {
-    content: '';
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    right: -36%;
-    background-color: white;
-    border: 4px white;
-    top: 15px;
-    border-radius: 50%;
-    z-index: 1;
-}
-
-
-/* Place the container to the left */
-
-.left {
-    left: 0;
-}
-
-
-/* Place the container to the right */
-
-.right {
-    left: 50%;
-}
-
-
-/* Fix the circle for containers on the right side */
-
-.right::after {
-    left: -13px;
-}
-
-
-/* The actual content */
-
-.content {
-    padding: 20px 30px;
-    background-color: #616063;
-    position: relative;
-    border-radius: 6px;
-}
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            overflow-x: scroll;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        h1 {
+            color: white;
+            transform: rotate(-90deg);
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1rem;
+            position: absolute;
+            bottom: 10%;
+        }
+        
+        .flex-container {
+            display: flex;
+            flex-flow: row;
+            height: 100%;
+            width: 8200px;
+        }
+        
+        .flex-item {
+            width: 10px;
+            height: 100%;
+            flex: 1;
+            position: relative;
+            vertical-align: bottom;
+            padding-left: 34px;
+            overflow: hidden;
+        }
+        
+        .flex-item:hover {
+            flex-grow: 200;
+        }
+        
+        .nes {
+            background-color: #d8c6b0;
+        }
+        
+        .water {
+            background-color: #c4cccf;
+        }
+        
+        .cap {
+            background-color: #865e49;
+        }
+        
+        .brause {
+            background-color: #3f4f5f;
+        }
+        
+        .hidden-info {
+            display: none;
+        }
+        /* .DIV {
+            width: 20px;
+            height: 60%;
+        }
+        
+        .DIV:hover+.hidden-info {
+            display: block;
+            color: red;
+            position: absolute;
+            width: 25px;
+            height: 100%;
+        } */
+        
+        p {
+            hyphens: none;
+        }
+        
+        .op0 {
+            opacity: 0%;
+        }
+        
+        .op10 {
+            opacity: 10%;
+        }
+        
+        .op20 {
+            opacity: 20%;
+        }
+        
+        .op30 {
+            opacity: 30%;
+        }
+        
+        .op40 {
+            opacity: 40%;
+        }
+        
+        .op50 {
+            opacity: 50%;
+        }
+        
+        .op60 {
+            opacity: 60%;
+        }
+        
+        .op70 {
+            opacity: 70%;
+        }
+        
+        .op80 {
+            opacity: 80%;
+        }
+        
+        .op90 {
+            opacity: 90%;
+        }
