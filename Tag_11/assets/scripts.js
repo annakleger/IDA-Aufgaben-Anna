@@ -19,3 +19,19 @@ function neuesElement() {
     div.style.top = Math.random() * window.innerHeight + "px";
     document.body.appendChild(div);
 }
+
+function neuesElement2() {
+    let div = document.createElement("div");
+    div.classList.add('random2');
+    div.style.left = Math.random() * window.innerWidth + "px";
+    div.style.top = Math.random() * window.innerHeight + "px";
+    document.body.appendChild(div);
+}
+
+function neuesElement3() {
+    let div = document.createElement("div");
+    div.classList.add('random3');
+    div.style.left = Math.random() * window.innerWidth + "px";
+    div.style.top = Math.random() * window.innerHeight + "px";
+    document.body.appendChild(div);
+}
